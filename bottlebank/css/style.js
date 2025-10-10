@@ -1,12 +1,3 @@
-<?php 
-include("db_connect.php");
-include("header.php"); ?>
-<div id="mainContent">
-  <h2>Welcome to BottleBank</h2>
-  <p>Select a section from the ☰ menu above.</p>
-</div>
-
-<script>
 var links = document.querySelectorAll('.menu-link');
 var main = document.getElementById('mainContent');
 
@@ -25,5 +16,3 @@ links.forEach(function(link){
       .catch(function(){ main.innerHTML = "Failed to load."; });
   });
 });
-</script>
-<?php include("footer.php"); ?>

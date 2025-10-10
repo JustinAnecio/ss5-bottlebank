@@ -1,6 +1,7 @@
 <?php 
-include("db_connect.php"); 
+include("db_connect.php");
 include("header.php"); 
+ 
 ?>
 
 <h2>🔄 Return Records</h2>
